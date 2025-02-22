@@ -1,5 +1,5 @@
 body {
-  background: rgb(4, 9, 37);
+  background: rgb(125, 129, 151);
 }
 
 .container {
@@ -55,7 +55,24 @@ header a {
   background:white;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: white;
+  background-image: 
+  linear-gradient(rgba(39,32,60,0.9),
+  rgba(39,32,60,0.9)),
+  url('../images/sydney-footer.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }

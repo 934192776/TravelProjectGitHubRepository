@@ -55,7 +55,7 @@ header a {
   background:white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   header {
     padding: 60px 0;
   }

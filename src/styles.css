@@ -1,5 +1,6 @@
 body {
-  background: rgb(125, 129, 151);
+  font-family: "Poppins", sans-serif;
+  background: #272044;
 }
 
 .container {
@@ -7,8 +8,13 @@ body {
   margin:0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display : grid;
+<<<<<<< HEAD
   
   grid-gap: 64px;
 }
@@ -17,6 +23,25 @@ grid-2-columns {
 
 }
 grid-3-columns-with-first-narrow {
+=======
+  grid-gap: 64px;
+}
+
+.img-responsive{
+  width: 100%;
+  display: block;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
+>>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
   grid-template-columns: 1fr 2fr 2fr;
 }
 section {
@@ -25,10 +50,56 @@ section {
   padding:100px 0;
 }
 
+.embed {
+  width:100%;
+  aspect-ratio: 1/1;
+}
+
+.card {
+  background: white;
+  margin-top: 30px;
+}
+
+.card-header.grid {
+  grid-gap:0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding:0 30px 30px;
+}
+
+.btn {
+  display:block;
+  color: white;
+  background-color: #412a9b;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+background: #f8f8f8;
+}
+
 header {
   background-image: 
-  linear-gradient(rgba(0,0,0,0.6), 
-  rgba(0,0,0,0.3)),
+  linear-gradient(rgba(0, 0, 0, 0.4), 
+  rgba(0, 0, 0, 0.4)),
   url("../images/sydney.avif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,39 +114,85 @@ header h1 {
   line-height: 1;
   margin: 30px 0;
 }
+
 header h2 {
   font-weight: 400;
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
 }
+
 header h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0;
 }
+
 header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-
   text-align:center;
-  color:rgb(43, 9, 49);
+  color: #272044;
   padding: 16px 32px;
   margin-top: 32px;
-
   display: inline-block;
   text-decoration: none;
   letter-spacing: 3px;
   text-transform: uppercase;
   background:white;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
+
+main {
+  background-color:white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  opacity:0.3;
+  margin: 0;
+  line-height: 1.5;
+  color: #272044;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color:#272044;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  opacity:0.7;
+  line-height: 1.5;
+  color: #272044;
 }
 
 main {
@@ -111,13 +228,11 @@ font-style: normal;
 footer {
   color: white;
   background-image: 
-  linear-gradient(rgba(39,32,60,0.9),
-  rgba(39,32,60,0.9)),
+  linear-gradient(rgba(39,32,60,0.8),
+  rgba(39,32,60,0.7)),
   url('../images/sydney-footer.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  
-  padding: 100px 0;
 }
 
 footer h3 {
@@ -129,8 +244,16 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   opacity:0.7;
+<<<<<<< HEAD
   
   line-height: 24px;
+=======
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+>>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
 }
 
 footer li {
@@ -138,10 +261,6 @@ footer li {
   margin: 0;
   padding: 0;
 }
-footer ul {
-  padding: 0;
-}
-
 
 footer a {
   color: white;
@@ -161,7 +280,25 @@ footer a {
   header h3 {
     font-size: 12px;
   }
+<<<<<<< HEAD
   .grid {
     grid-template-columns: 1fr;
   }
+=======
+ .grid {
+  grid-template-columns: 1fr;
+  grid-gap:32px;
+ }
+ section {
+  padding: 30px;
+ }
+
+ .card-header img {
+  display: none;
+ }
+
+ .embed {
+  aspect-ratio: 16/9;
+ }
+>>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
 }

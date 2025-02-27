@@ -19,14 +19,45 @@ body {
 
 .img-responsive{
   max-width: 100%;
+  display: block;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.card {
+  background: white;
+  margin-top: 30px;
+}
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding:0 30px 30px;
+}
+
+.btn {
+  display:block;
+  color: white;
+  background-color: #412a9b;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 30px 0;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
 }
 
 section {
@@ -110,6 +141,24 @@ main h3 {
   color:#272044;
   margin: 0;
 }
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -118,6 +167,7 @@ main p {
   line-height: 1.5;
   color: #272044;
 }
+
 footer {
   color: white;
   background-image: 

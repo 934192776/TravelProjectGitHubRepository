@@ -5,7 +5,7 @@ body {
 
 .container {
   max-width: 1400px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .text-center {
@@ -13,21 +13,11 @@ body {
 }
 
 .grid {
-  display : grid;
-<<<<<<< HEAD
-  
-  grid-gap: 64px;
-}
-grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-
-}
-grid-3-columns-with-first-narrow {
-=======
+  display: grid;
   grid-gap: 64px;
 }
 
-.img-responsive{
+.img-responsive {
   width: 100%;
   display: block;
 }
@@ -41,27 +31,25 @@ grid-3-columns-with-first-narrow {
 }
 
 .grid-3-columns-with-first-narrow {
->>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
   grid-template-columns: 1fr 2fr 2fr;
-}
-section {
-  max-width:1200px;
-  margin:0 auto;
-  padding:100px 0;
 }
 
 .embed {
-  width:100%;
-  aspect-ratio: 1/1;
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 .card {
   background: white;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .card-header.grid {
-  grid-gap:0;
+  grid-gap: 0;
 }
 
 .card-body {
@@ -69,13 +57,12 @@ section {
 }
 
 .card-footer {
-  padding:0 30px 30px;
+  padding: 0 30px 30px;
 }
 
 .btn {
-  display:block;
+  display: block;
   color: white;
-  background-color: #412a9b;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -83,6 +70,7 @@ section {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
+  background-color: #462cb3;
   text-decoration: none;
 }
 
@@ -93,18 +81,16 @@ section {
 }
 
 section.secondary {
-background: #f8f8f8;
+  background: #f8f8f8;
 }
 
 header {
-  background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.4), 
-  rgba(0, 0, 0, 0.4)),
-  url("../images/sydney.avif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/lisbon.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color:white;
-  text-align:center;
+  color: white;
+  text-align: center;
   padding: 200px 0;
 }
 
@@ -127,7 +113,6 @@ header h3 {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 5px;
-  text-transform: uppercase;
   margin: 0;
 }
 
@@ -135,37 +120,38 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  text-align:center;
+  text-align: center;
   color: #272044;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
-  text-decoration: none;
   letter-spacing: 3px;
+  text-decoration: none;
   text-transform: uppercase;
-  background:white;
+  background: white;
 }
 
 main {
-  background-color:white;
+  background-color: white;
 }
 
 main h2 {
   font-weight: 700;
   font-size: 16px;
-  opacity:0.3;
-  margin: 0;
   line-height: 1.5;
-  color: #272044;
+  margin: 0;
   letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
   text-transform: uppercase;
+  text-align: center;
 }
 
 main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color:#272044;
+  color: #272044;
   margin: 0;
 }
 
@@ -173,64 +159,36 @@ main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  text-align: center;
   color: #272044;
   margin: 0;
+  text-align: center;
 }
 
 main h5 {
   font-weight: 700;
   font-size: 13px;
+  margin: 0;
   line-height: 1;
   color: #272044;
-  margin: 0;
 }
 
 main p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  opacity:0.7;
   line-height: 1.5;
   color: #272044;
+  opacity: 0.7;
 }
 
-main {
-  background-color: white;
-}
-main h2 {
-  font-weight: 700;
-  font-size: 16px;
-  opacity:0.3;
-  margin:0;
-  letter-spacing:5px;
-  line-height: 1.5;
-  color:brown;
-  text-transform:uppercase;
-}
-main h3{
-font-weight: 700;
-  font-size: 40px;
-  
-  margin:0;
-  line-height: 1.5;
-  color:brown;
-}
-main p {
-font-style: normal;
-  font-size: 16px;
-  opacity:0.7;
-  
-  font-weight: 400;
-  line-height: 1.5;
-  color:brown;
-}
 footer {
   color: white;
-  background-image: 
-  linear-gradient(rgba(39,32,60,0.8),
-  rgba(39,32,60,0.7)),
-  url('../images/sydney-footer.jpg');
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/lisbon-footer.png");
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,20 +198,16 @@ footer h3 {
   font-size: 20px;
   line-height: 30px;
 }
+
 footer p {
   font-weight: 400;
   font-size: 16px;
-  opacity:0.7;
-<<<<<<< HEAD
-  
-  line-height: 24px;
-=======
+  opacity: 0.7;
   line-height: 24px;
 }
 
 footer ul {
   padding: 0;
->>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
 }
 
 footer li {
@@ -271,34 +225,33 @@ footer a {
   header {
     padding: 60px 0;
   }
+
   header h1 {
-    font-size:48px;
+    font-size: 48px;
   }
+
   header h2 {
     font-size: 20px;
   }
+
   header h3 {
     font-size: 12px;
   }
-<<<<<<< HEAD
+
   .grid {
     grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
-=======
- .grid {
-  grid-template-columns: 1fr;
-  grid-gap:32px;
- }
- section {
-  padding: 30px;
- }
 
- .card-header img {
-  display: none;
- }
+  section {
+    padding: 30px;
+  }
 
- .embed {
-  aspect-ratio: 16/9;
- }
->>>>>>> e98bdbfbcf81750ef10deb4aec836d1d6e1497c4
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }

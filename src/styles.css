@@ -3,10 +3,6 @@ body {
   background: #272044;
 }
 
-blockquote {
- margin: 30px 0;
-}
-
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -94,7 +90,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lisbon.png");
+    url("../images/sydney.avif");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -195,7 +191,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/lisbon-footer.png");
+    url("../images/sydney-footer.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -262,5 +258,4 @@ footer a {
   .embed {
     aspect-ratio: 16 / 9;
   }
-
 }

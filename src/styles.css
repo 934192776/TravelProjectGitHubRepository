@@ -20,6 +20,8 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  height: 300px;
+  object-fit: cover;
 }
 
 .grid-2-columns {
@@ -37,6 +39,8 @@ body {
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
+  height: 300px;
+  object-fit: cover;
 }
 
 .instagram-embeds {
